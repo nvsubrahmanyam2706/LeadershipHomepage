@@ -1312,7 +1312,7 @@ async function loadAlerts() {
 
   try {
 
-    const res = await fetch("/api/alerts");
+    const res = await fetch("https://skybridge-flight-dashboard-6gvy.onrender.com/api/alerts");
     const data = await res.json();
 
     const count = document.getElementById("alertCount");
